@@ -1,0 +1,77 @@
+.typewriter h1 {
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    animation:
+        typing 3.5s steps(40,end),
+        blink-caret .75s step-end infinite;
+    letter-spacing: .15em;
+    margin: 0 auto;
+}
+
+@keyframes typing{
+    from {width: 0}
+    to {width: 100%}
+}
+
+body {
+    background-image: url('Images/background.jpg');
+}
+
+/* 
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+} */
+
+.topnav-left .logo img {
+    position: sticky;
+    width: 150px;
+    float: left;
+    margin-top: 16px;
+    margin-left: 40px;
+    /* cursor: pointer; */
+    justify-content: flex-start;
+}
+ 
+/* Style the links inside the navigation bar */
+.topnav-right a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+  margin-top: 16px;
+}
+
+/* Change the color of links on hover */
+.topnav-right a:hover {
+  background-color: #FFBEE3;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav-right a.active {
+  background-color: #BD5793;
+  color: white;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+hr {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin-bottom: auto;
+    margin-right: 0px;
+    margin-left: auto;
+    margin-top: auto;
+    border-color: black;
+}
