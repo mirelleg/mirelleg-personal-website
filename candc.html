@@ -3,30 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-   <!-- you would also link to Bootstrap here! -->
     <title>Cravings & Critics</title>
-    <header>
-        <div class="topnav-left">
-            <div class="logo">
-              <a href="./index.html">
-                  <img src="Images/personal website design logo a1.png" alt="pink box with cursive m in black logo">
-              </a>
-            </div>
-          </div>
-        <div class="topnav-right">
-            <a href="./index.html" id="home">Home</a>
-            <a href="./aboutme.html" id="aboutme">About Me</a>
-            <a href="./resume.html">Resume</a>
-            <a class="active" href="./candc.html">Cravings & Critics</a>
-            <a href="./bb.html">Bakers' Block</a>
-            <a href="./contactme.html">Contact</a>
-            <hr>
-        </div>
-    </header>
-</head>
-<body>
+    <link rel="stylesheet" type="text/css" href="style.css">
     
+    <nav class="navigation-bar">
+        <div>
+            <a href="./index.html">
+                <img class="logo" src="Images/personal website design logo a1.png" alt="pink box with cursive m in black logo">
+            </a>
+            <div class="topnav-right">
+                <a href="./index.html" id="home">Home</a>
+                <a href="./aboutme.html" id="aboutme">About Me</a>
+                <a href="./resume.html">Resume</a>
+                <a class="active" href="./candc.html">Cravings & Critics</a>
+                <a href="./bb.html">Bakers' Block</a>
+                <a href="./contactme.html">Contact</a>
+                <hr>
+            </div>
+        </div>
+    </nav>
+</head>
+<body class="candc">
+    <h1 class="cc-header">Welcome to Cravings & Critics!</h1>
+    <p>As an avid baker myself, I have grown to truly appreciate the various rich flavors, textures, and tastes of foods.</p>
+    <p>Each tile below is food I have tried and rated accordingly. I hope you get to try them once and see if you agree with me! </p>
+    <div class="recipes">
+        <div class="row">
+            <div class="column">
+                <a href="https://www.insitcoffee.com/menu" target="_blank">
+                    <img src="Images/insit_coffee.png" alt="strawberries croffle, tiramisu croffle, signature croffle, matcha croffle">
+                    <img src="Images/tiramisu_croffle_review.png" alt="location: in-sit coffee, item: tiramisu croffle, rating: 8.5/10, reason: croffle was pretty sweetened and the tiramisu cream had a good flavor, rather than just cream cheese with cocoa powder. cream was relatively light and overall, a solid croffle.">
+                </a> 
+            </div>
+            <div class="column">
+                <a href="https://www.portosbakery.com/current-menu/" target="_blank">
+                    <img src="Images/guava_cheese_strudel_refugiado_portos.png" alt="guava and cheese strudel">
+                    <img src="Images/guava_cheese_strudel_portos_review.png" alt="location: porto's bakery, item: guava and cheese strudel, rating: 9/10, reason: strudel has more guava than cheese mostly, but since I love guava, it was not a problem. There's a balance to the amount of huava and flakiness of dough. cheese rolls are another exquisite pastry.">
+                </a> 
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <a href="https://www.nothingbundtcakes.com/cakes/bundtinis/" target="_blank">
+                    <img src="Images/bundtinis_nothing_but_bundt_cakes.png" alt="red velvet, chocolate, lemon and white chocolate raspberry bundtinis">
+                    <img src="Images/bundtinis_nbbc_review.png" alt="perfect small cake for 3 people with not-too-sweet cream cheese frosting and rich cakes. perfect frosting to cake ratio with every bite including just enough frosting.">
+                </a> 
+            </div>
+            <div class="column">
+                <a href="https://www.snrtea.com/menu" target="_blank">
+                    <img src="Images/panda_milk_tea_sunright.png" alt="panda milk tea: ceylon milk tea with honey boba and brown sugar boba">
+                    <img src="Images/panda_milk_tea_sunright_review.png" alt="location: sunright tea studio, item: panda milk tea, rating: 9.5/10, i usually get 50% sugar which is perfect sweetness; both honey boba and brown sugar boba are delicious and the Ceylon milk tea is just strong enough.">
+                </a> 
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <a href="https://www.blkdotcoffee.com/s/order?location=11e97cd88d04117597f50cc47a2b63cc" target="_blank">
+                    <img src="Images/iced_dulce_vietnamese_latte.png" alt="dulce de leche vietnamese latte">
+                    <img src="Images/blk_dot_coffee_review.png" alt="i got it with sea salt cream and it was the perfect combination. vietnamese coffee is quite strong, so proceed accordingly. Great flavor overall and looks stunning for an iced coffee!">
+                </a> 
+            </div>
+            <div class="column">
+                <a href="https://lalalandkindcafe.com/wp-content/uploads/2023/03/2023-La-La-Land-Los-angeles-Menu-thegrove-online.pdf" target="_blank">
+                    <img src="Images/lalaland_kind_cafe_lavender_bloom_latte.png" alt="lavender bloom latte">
+                    <img src="Images/lavender_latte_review.png" alt="lavender is an easy flavor to overdo and make the coffee taste soapy. in this case, it was just enough to taste the floral accents to the coffee.">
+                </a> 
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <a href="https://sidecardoughnuts.com/menu/" target="_blank">
+                    <img src="Images/sidecar_doughnutsandcoffee_blueberry_pancake_donut.png" alt="sidecar's blueberry pancake donut">
+                    <img src="Images/blueberry_pancake_donut_review.png" alt="it is a pretty good representatino of a blueberry pancake in donut form. there's enough blueberries to not overtake the donut itself. the glaze wasn't as maple flavored as i expected.">
+                </a> 
+            </div>
+            <div class="column">
+                <a href="https://www.honolulucookie.com/content/shortbread-flavors.asp" target="_blank">
+                    <img src="Images/honolulu_cookie_company_white_chocolate_lemon_cookie.png" alt="white chocolate lemon cookies">
+                    <img src="Images/white_chocolate_lemon_cookie_review.png" alt="as a lemon shortbread lover, this cookie had a great lemon flavor and the white chocolate dipping added some sweetness. however, besides the shape, i find it hard to be jaw-droppingly impressed, though it was delicious.">
+                </a> 
+            </div>
+        </div>
+    </div>
 </body>
 </html>

@@ -15,17 +15,17 @@
 }
 
 body {
-    background-image: url('Images/background.jpg');
+    /* background-image: url('Images/background.jpg'); */
+    background-color: #d6bea2;
 }
 
-/* 
-.img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-} */
+.candc {
+    background-image: url('Images/cravings_and_critics_backdrop.png');
+}
+
+.bb {
+    background-image: url('Images/bakers_block_backdrop.png');
+}
 
 .topnav-left .logo img {
     position: sticky;
@@ -75,3 +75,164 @@ hr {
     margin-top: auto;
     border-color: black;
 }
+
+.header {
+    position: fixed;
+    height: 16px;
+    width: 100%;
+    text-align: center;
+}
+
+/* .contactBody {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+} */
+
+.center-div {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    margin-left: -300px;
+    margin-top: -300px;
+    margin: auto;
+ }
+
+ .center-div form {
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    margin-left: -150px;
+    margin-top: -150px;
+    margin: auto;
+ }
+
+ .navigation-bar {
+    width: 100%;
+    height: 160px;
+ }
+
+ .logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+    margin-top: 16px;
+    margin-left: 20px;
+ }
+
+ .navigation-bar > a {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    height: 120px;
+    line-height: 120px;
+ }
+
+ .box {
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 50px;
+ }
+
+ .bb-header {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+ }
+
+ .cc-header {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+ }
+
+ .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    align-items: center;
+ }
+
+ .column a {
+    flex: 50%;
+    padding: 0 4px;
+ }
+
+ .column a img {
+    margin-top: 10px;
+    vertical-align: middle;
+ }
+
+ img {
+    width: 250px;
+    height: 250px;
+    vertical-align: middle;
+    align-content: center;
+ }
+
+ .recipes {
+    display: grid;
+    place-content: center;
+ }
+
+ p {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+ }
+
+ .maps {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 30px;
+    justify-content: center;
+ }
+
+ .contact_form {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 30px;
+    align-items: center;
+ }
+
+ .map-form-row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    align-items: center;
+    justify-content: center;
+ }
+
+.profile {
+    border-radius: 50%;
+ }
+
+ .profile-photo {
+    display: flex;
+    justify-content: center;
+ }
+
+ .about-me-header {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+ }
+
+ .cm-header {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+ }
+
+ .about-me-desc {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+ }

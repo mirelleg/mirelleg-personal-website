@@ -3,30 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <!-- you would link to an external stylesheet here! -->
-   <link rel="stylesheet" type="text/css" href="style.css">
-   <!-- you would also link to Bootstrap here! -->
     <title>Contact Me</title>
-    <header>
-        <div class="topnav-left">
-          <div class="logo">
-            <a href="./index.html">
-                <img src="Images/personal website design logo a1.png" alt="pink box with cursive m in black logo">
-            </a>
-          </div>
-        </div>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <nav class="navigation-bar">
+        <a href="./index.html">
+            <img class="logo" src="Images/personal website design logo a1.png" alt="pink box with cursive m in black logo">
+        </a>
         <div class="topnav-right">
-          <a href="./index.html" id="home">Home</a>
-          <a href="./aboutme.html" id="aboutme">About Me</a>
-          <a href="./resume.html">Resume</a>
-          <a href="./candc.html">Cravings & Critics</a>
-          <a href="./bb.html">Bakers' Block</a>
-          <a class="active" href="./contactme.html">Contact</a>
-          <hr>
+            <a href="./index.html" id="home">Home</a>
+            <a href="./aboutme.html" id="aboutme">About Me</a>
+            <a href="./resume.html">Resume</a>
+            <a href="./candc.html">Cravings & Critics</a>
+            <a href="./bb.html">Bakers' Block</a>
+            <a class="active" href="./contactme.html">Contact</a>
+            <hr>
         </div>
-    </header>
+    </nav>
 </head>
 <body>
-   
+    <h1 class="cm-header">Let's Connect!</h1>
+    <div class="map-form-row">
+        <div class="maps"> 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d809649.8131897283!2d-122.6565648626996!3d37.562258889511405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb68ad0cfc739%3A0x7eb356b66bd4b50e!2sSilicon%20Valley%2C%20CA!5e0!3m2!1sen!2sus!4v1696828055363!5m2!1sen!2sus" width="300" height="450" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212409.0152792533!2d-117.93132095659203!3d33.71177281146051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcdd0e689140e3%3A0xa77ab575604a9a39!2sIrvine%2C%20CA!5e0!3m2!1sen!2sus!4v1696913997246!5m2!1sen!2sus" width="300" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="contact_form">
+            <form action="submission.html" method="GET">
+                <label for="firstName">First Name:</label>
+                <br>
+                <input id="firstName" name="firstName" type="text" required alt="field for first name">
+                <br>
+                <label for="lastName">Last Name:</label>
+                <br>
+                <input id="lastName" name="lastName" type="text" required alt="field for last name">
+                <br>
+                <label id="preferredFirstName">Preferred First Name:</label>
+                <br>
+                <input id="preferredFirstName" name="preferredFirstName" type="text" required alt="field for preferred first name">
+                <br>
+                <label id="email">Email:</label>
+                <br>
+                <input id="email" name="email" type="text" required alt="field for email">
+                <br>
+                <label id="linkedin">LinkedIn:</label>
+                <br>
+                <input id="linkedin" name="linked" type="text" alt="field for linkedin">
+                <br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    <!-- #linkedin & email -->
 </body>
 </html>
