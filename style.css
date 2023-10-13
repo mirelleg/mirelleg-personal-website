@@ -50,13 +50,13 @@ body {
 
 /* Change the color of links on hover */
 .topnav-right a:hover {
-  background-color: #FFBEE3;
+  background-color: #EF8282;
   color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav-right a.active {
-  background-color: #BD5793;
+  background-color: #AA3939;
   color: white;
 }
 
@@ -235,4 +235,71 @@ hr {
     justify-content: center;
     width: 80%;
     margin: auto;
+ }
+
+ .written-footer {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: #650C0C;
+ }
+
+ .experience-cards {
+    display: grid;
+    place-content: center;
+    
+ }
+
+ .internship-card {
+    margin: 20px;
+}
+
+ .job-rectangle {
+    width: 300px;
+    height: 800px;
+    background-color: #AA3939;
+    display: grid;
+    align-items: center;
+ }
+
+ .internship-text {
+    color: #f2f2f2;
+ }
+
+ .other-rectangle {
+    width: 300px;
+    height: 800px;
+    background-color: #EF8282;;
+    display: grid;
+    align-items: center;
+ }
+
+.oncampus-card {
+    margin: 20px;
+}
+
+ .job-text {
+    color: #f2f2f2;
+ }
+
+ .job-text-title {
+    color: #f2f2f2;
+    justify-content: center;
+    font-size: 25px;
+    display: flex;
+    font-weight: bold;
+ }
+
+ .certifications-card {
+    margin: 20px;
+}
+
+ .career-courses-card {
+    margin: 20px;
+}
+
+.resume-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
  }
