@@ -27,6 +27,10 @@ body {
     background-image: url('Images/bakers_block_backdrop.png');
 }
 
+.aboutme {
+    background-image: url('Images/about_me_background.png');
+}
+
 .topnav-left .logo img {
     position: sticky;
     width: 150px;
@@ -233,7 +237,7 @@ hr {
  .about-me-desc {
     display: flex;
     justify-content: center;
-    width: 80%;
+    width: 70%;
     margin: auto;
  }
 
@@ -258,6 +262,7 @@ hr {
     width: 300px;
     height: 800px;
     background-color: #AA3939;
+    opacity: 70%;
     display: grid;
     align-items: center;
  }
@@ -269,7 +274,8 @@ hr {
  .other-rectangle {
     width: 300px;
     height: 800px;
-    background-color: #EF8282;;
+    background-color: #EF8282;
+    opacity: 70%;
     display: grid;
     align-items: center;
  }
@@ -302,4 +308,17 @@ hr {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+ }
+
+ input[type=text] {
+    border: 3px solid #650C0C;
+    outline: none;
+ }
+
+ .home-page-image {
+    display: grid;
+    place-content: center;
+    width: 750px;
+    height: 570px;
+    margin: auto;
  }
