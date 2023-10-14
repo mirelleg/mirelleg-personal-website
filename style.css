@@ -1,72 +1,5 @@
-.typewriter h1 {
-    overflow: hidden;
-    color: white;
-    text-align: center;
-    animation:
-        typing 3.5s steps(40,end),
-        blink-caret .75s step-end infinite;
-    letter-spacing: .15em;
-    margin: 0 auto;
-}
-
-@keyframes typing{
-    from {width: 0}
-    to {width: 100%}
-}
-
 body {
-    /* background-image: url('Images/background.jpg'); */
     background-color: #d6bea2;
-}
-
-.candc {
-    background-image: url('Images/cravings_and_critics_backdrop.png');
-}
-
-.bb {
-    background-image: url('Images/bakers_block_backdrop.png');
-}
-
-.aboutme {
-    background-image: url('Images/about_me_background.png');
-}
-
-.topnav-left .logo img {
-    position: sticky;
-    width: 150px;
-    float: left;
-    margin-top: 16px;
-    margin-left: 40px;
-    /* cursor: pointer; */
-    justify-content: flex-start;
-}
- 
-/* Style the links inside the navigation bar */
-.topnav-right a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 22px;
-  margin-top: 16px;
-}
-
-/* Change the color of links on hover */
-.topnav-right a:hover {
-  background-color: #EF8282;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav-right a.active {
-  background-color: #AA3939;
-  color: white;
-}
-
-/* Right-aligned section inside the top navigation */
-.topnav-right {
-  float: right;
 }
 
 hr {
@@ -80,6 +13,59 @@ hr {
     border-color: black;
 }
 
+.home-page-image {
+    display: grid;
+    place-content: center;
+    width: 750px;
+    height: 570px;
+    margin: auto;
+ }
+
+.aboutme {
+    background-image: url('Images/about_me_background.png');
+}
+
+.candc {
+    background-image: url('Images/cravings_and_critics_backdrop.png');
+}
+
+.bb {
+    background-image: url('Images/bakers_block_backdrop.png');
+}
+
+.topnav-left .logo img {
+    position: sticky;
+    width: 150px;
+    float: left;
+    margin-top: 16px;
+    margin-left: 40px;
+    justify-content: flex-start;
+}
+
+.topnav-right a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+  margin-top: 16px;
+}
+
+.topnav-right a:hover {
+  background-color: #EF8282;
+  color: black;
+}
+
+.topnav-right a.active {
+  background-color: #AA3939;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+
 .header {
     position: fixed;
     height: 16px;
@@ -87,37 +73,10 @@ hr {
     text-align: center;
 }
 
-/* .contactBody {
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-} */
-
-.center-div {
-    width: 600px;
-    height: 600px;
-    position: absolute;
-    left: 50%;
-    top: 50%; 
-    margin-left: -300px;
-    margin-top: -300px;
-    margin: auto;
- }
-
- .center-div form {
-    width: 600px;
-    height: 600px;
-    position: absolute;
-    left: 50%;
-    top: 50%; 
-    margin-left: -150px;
-    margin-top: -150px;
-    margin: auto;
- }
-
  .navigation-bar {
     width: 100%;
-    height: 160px;
+    min-height: 160px;
+    overflow: hidden;
  }
 
  .logo {
@@ -128,20 +87,6 @@ hr {
     margin-right: 20px;
     margin-top: 16px;
     margin-left: 20px;
- }
-
- .navigation-bar > a {
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 20px;
-    height: 120px;
-    line-height: 120px;
- }
-
- .box {
-    display: inline-block;
-    margin-left: 150px;
-    margin-top: 50px;
  }
 
  .bb-header {
@@ -251,7 +196,6 @@ hr {
  .experience-cards {
     display: grid;
     place-content: center;
-    
  }
 
  .internship-card {
@@ -262,7 +206,7 @@ hr {
     width: 300px;
     height: 800px;
     background-color: #AA3939;
-    opacity: 70%;
+    opacity: 80%;
     display: grid;
     align-items: center;
  }
@@ -275,7 +219,7 @@ hr {
     width: 300px;
     height: 800px;
     background-color: #EF8282;
-    opacity: 70%;
+    opacity: 80%;
     display: grid;
     align-items: center;
  }
@@ -313,12 +257,4 @@ hr {
  input[type=text] {
     border: 3px solid #650C0C;
     outline: none;
- }
-
- .home-page-image {
-    display: grid;
-    place-content: center;
-    width: 750px;
-    height: 570px;
-    margin: auto;
  }
