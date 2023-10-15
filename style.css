@@ -53,13 +53,14 @@ hr {
 }
 
 .topnav-right a:hover {
-  background-color: #EF8282;
+  background-color: #dfd1c3;
+  /* background-color: #d6bea2; */
   color: black;
 }
 
 .topnav-right a.active {
-  background-color: #AA3939;
-  color: white;
+  background-color: #3f1c13;/*#AA3939;*/
+  color: #f2f2f2;
 }
 
 .topnav-right {
@@ -190,7 +191,7 @@ hr {
     display: flex;
     justify-content: center;
     margin: auto;
-    color: #650C0C;
+    color: #3f1c13;
  }
 
  .experience-cards {
@@ -205,7 +206,7 @@ hr {
  .job-rectangle {
     width: 300px;
     height: 800px;
-    background-color: #AA3939;
+    background-color: #3f1c13;
     opacity: 80%;
     display: grid;
     align-items: center;
@@ -218,7 +219,7 @@ hr {
  .other-rectangle {
     width: 300px;
     height: 800px;
-    background-color: #EF8282;
+    background-color: #996633;/*#EF8282;*/
     opacity: 80%;
     display: grid;
     align-items: center;
@@ -255,6 +256,6 @@ hr {
  }
 
  input[type=text] {
-    border: 3px solid #650C0C;
+    border: 3px solid #3f1c13;
     outline: none;
  }

@@ -7,15 +7,19 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Monofett'>
+
     <style>
     body {
-        font-family: 'Monofett';font-size: 36px; color: #650C0C;
+        font-family: 'Monofett';
+        font-size: 36px; 
+        color: #3f1c13;
     }
     </style>
-
+</head>
+<body>
     <nav class="navigation-bar">
         <a href="./index.html">
-            <img class="logo" src="Images/personal website design logo a1.png" alt="pink box with cursive m in black logo">
+            <img class="logo" src="Images/personal_website_design_logo.png" alt="pink box with cursive m in black logo">
         </a>
         <div class="topnav-right">
             <a href="./index.html" id="home">Home</a>
@@ -27,8 +31,7 @@
             <hr>
         </div>
     </nav>
-</head>
-<body>
+
     <h1 class="cm-header">Let's Connect!</h1>
     <div class="map-form-row">
         <div class="maps"> 
@@ -38,39 +41,39 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212409.0152792533!2d-117.93132095659203!3d33.71177281146051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcdd0e689140e3%3A0xa77ab575604a9a39!2sIrvine%2C%20CA!5e0!3m2!1sen!2sus!4v1696913997246!5m2!1sen!2sus" width="300" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="contact_form">
-            <form action="submission.html" method="GET">
+            <form action="https://formspree.io/f/mvojdblz" method="post">
                 <label for="firstName">First Name:</label>
                 <br>
-                <input id="firstName" name="firstName" type="text" required alt="field for first name">
+                <input id="firstName" name="firstName" type="text" required>
                 <br>
                 <label for="lastName">Last Name:</label>
                 <br>
-                <input id="lastName" name="lastName" type="text" required alt="field for last name">
+                <input id="lastName" name="lastName" type="text" required>
                 <br>
-                <label id="preferredFirstName">Preferred First Name:</label>
+                <label for="preferredFirstName">Preferred First Name:</label>
                 <br>
-                <input id="preferredFirstName" name="preferredFirstName" type="text" required alt="field for preferred first name">
+                <input id="preferredFirstName" name="preferredFirstName" type="text" required>
                 <br>
-                <label id="email">Email:</label>
+                <label for="email">Email:</label>
                 <br>
-                <input id="email" name="email" type="text" required alt="field for email">
+                <input id="email" name="email" type="text" required>
                 <br>
-                <label id="linkedin">LinkedIn:</label>
+                <label for="linkedin">LinkedIn:</label>
                 <br>
-                <input id="linkedin" name="linked" type="text" alt="field for linkedin">
+                <input id="linkedin" name="linked" type="text">
                 <br>
                 <input type="submit" value="Submit">
             </form>
         </div>
     </div>
     <br>
+    <footer>
+        <hr>
+        <div class="resume-row">
+            <a href="https://www.linkedin.com/in/mirelle-george/" target="_blank">
+                <i style="color: #3f1c13" class="fa">&#xf08c;</i>
+            </a>
+        </div>
+    </footer>
 </body>
-<footer>
-    <hr>
-    <div class="resume-row">
-        <a href="https://www.linkedin.com/in/mirelle-george/" target="_blank">
-            <i style="color: #AA3939" class="fa">&#xf08c;</i>
-        </a>
-    </div>
-</footer>
 </html>
