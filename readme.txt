@@ -10,7 +10,7 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
-*/15
+15/15
 - 1/1 Readme
 - 3/3 Basic HTML content
 - 3/3 Basic CSS styling
@@ -29,6 +29,8 @@ Talking to classmates about class material, assignment requirements, etc. is a g
     - semantic HTML tag (footer)
     - Font Awesome Icon (linkedin)
 
+    + I also created my own backgrounds on Canva that fit my vision for that corresponding page 
+
 (b) CSS features
     - modified padding and margins to indent content and enhance readability
     - modified link, text color or other colors to be visually appealing (the palette shades inspired by a Paletton palette creater [link at bottom])
@@ -39,9 +41,8 @@ Talking to classmates about class material, assignment requirements, etc. is a g
     - leveraged nested selectors to specify format
     - created contact form using HTML forms
 
-
 3. How long, in hours, did it take you to complete this assignment?
-    It took ~12-15 hours to complete this assignment as a whole.
+    It took ~10-15 hours to complete this assignment as a whole.
 
 4. What online resources did you consult when completing this assignment? (list specific URLs)
     - https://www.codecademy.com/learn/learn-html 
