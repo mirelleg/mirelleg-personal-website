@@ -29,3 +29,4 @@ Online Resources I consulted:
     - https://extension.umaine.edu/plugged-in/technology-marketing-communications/web/tips-for-web-managers/embed-map/
     - https://www.w3schools.com/howto/howto_js_topnav.asp
     - https://www.freecodecamp.org/news/how-to-center-an-image-in-a-div-css/
+    - https://www.w3schools.com/howto/howto_css_flip_card.asp 
